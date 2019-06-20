@@ -5,3 +5,5 @@ plot (x,y)
 
 modell <-lm (x~y)
 summary (modell)
+
+plot(residuals(modell))
